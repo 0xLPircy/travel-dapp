@@ -26,7 +26,7 @@ const Nav = () => {
                         </>
                     )}
                     {userId && (
-                        <Link className="mx-6" href="profile">
+                        <Link className="mx-6" href="/dashboard">
                             Dashboard
                         </Link>
                     )}
