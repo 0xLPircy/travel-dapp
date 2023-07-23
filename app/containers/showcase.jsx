@@ -8,11 +8,14 @@ const Showcase = () => {
   return (
     <div className="showcase pt-[100px]">
       <div className="">
-        <h1 className="text-[#eeeeee] text-6xl grid grid-flow-row">
+        <h1 className="text-[#eeeeee] text-6xl grid grid-flow-row p-9 mt-3 ml-3">
           <span>Travel, Earn</span>
-          <span>and Live Life your way!</span>
+          <span>and Live Life your</span>
+          <span>way!</span>
         </h1>
-        <Image src={chatImg} width={300} height={300} />
+        <div className="ml-60 -mt-9">
+          <Image src={chatImg} width={360} height={360} />
+        </div>
       </div>
       <Image src={mockup} width={400} height={400} />
     </div>
