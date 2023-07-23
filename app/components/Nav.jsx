@@ -8,12 +8,12 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="py-0 px-6 flex items-center justify-between mb-5">
+      <nav className="py-0 px-6 flex items-center justify-between mb-5 z-10">
         <Link className="flex items-center" href="/">
           <div id="logo" className="flex items-center text-[#eeeeee]">
             <Image src="/logo.png" height={90} width={90} />
             {/* <img src="./logo.png" alt="" /> */}
-            <h1 className="text-lg uppercase font-bold">TRAVEL LOGO</h1>
+            <h1 className="text-lg uppercase font-bold">TRAVEL DAPP</h1>
           </div>
         </Link>
         <div className="flex items-center text-[#eeeeee]">

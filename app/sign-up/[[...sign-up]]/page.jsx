@@ -1,10 +1,12 @@
-import { SignUp } from "@clerk/nextjs"
+import { SignUp } from "@clerk/nextjs";
 const SignUpPage = () => {
-    return (
-        <>
-            <SignUp />
-        </>
-    )
-}
+  return (
+    <>
+      <div className="flex items-center justify-center h-[100vh] w-full py-28">
+        <SignUp />
+      </div>
+    </>
+  );
+};
 
-export default SignUpPage
+export default SignUpPage;
