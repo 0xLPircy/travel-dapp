@@ -19,3 +19,10 @@ nav {
   -webkit-backdrop-filter: blur(4.5px);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
+.howToUse {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/bgSteps.jpeg) no-repeat fixed;
+  background-size: cover;
+}

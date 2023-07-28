@@ -5,7 +5,7 @@ import f1 from "../../assets/features/feat1.png";
 const Features = () => {
   return (
     <>
-      <div className="grid grid-flow-row justify-center items-center text-white">
+      <div className="grid grid-flow-row justify-center items-center text-white mb-9">
         <h1 className="justify-self-center text-4xl mt-12">Top Features</h1>
         <h5 className="justify-self-center text-2xl mb-6">
           Explore the Wildness of Nature

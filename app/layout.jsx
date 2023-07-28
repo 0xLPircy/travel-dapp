@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className="bg-[#121212] ">
+        <body className="bg-[#212121] ">
           <Nav />
           <main>{children}</main>
         </body>
