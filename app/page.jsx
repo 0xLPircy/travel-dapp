@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+import Faq from "./containers/faq";
 import Features from "./containers/features";
 import HowToUse from "./containers/howToUse";
 import Showcase from "./containers/showcase";
@@ -11,6 +12,7 @@ export default function Home() {
       <Features />
       <HowToUse />
       <Testimonials />
+      <Faq />
     </>
   );
 }

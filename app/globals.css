@@ -45,3 +45,10 @@ nav {
   background-image: url(../assets/testimonialBg.png);
   background-size: cover;
 }
+
+.faq {
+  width: 100vw;
+  height: 100vh;
+  background: url(../assets/faqBg.png) no-repeat fixed;
+  background-size: cover;
+}
