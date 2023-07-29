@@ -26,3 +26,22 @@ nav {
   background: url(../assets/bgSteps.jpeg) no-repeat fixed;
   background-size: cover;
 }
+
+.testimonial {
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #121212 0%,
+    #121212 39%,
+    #e7e4df 39%,
+    #e7e4df 50%,
+    #e7e4df 100%
+  ); /* W3C */
+}
+
+.innertestimonial {
+  height: 80vh;
+  width: 90vw;
+  background-image: url(../assets/testimonialBg.png);
+  background-size: cover;
+}

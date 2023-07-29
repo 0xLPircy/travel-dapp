@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Features from "./containers/features";
 import HowToUse from "./containers/howToUse";
 import Showcase from "./containers/showcase";
+import Testimonials from "./containers/testimonials";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Showcase />
       <Features />
       <HowToUse />
+      <Testimonials />
     </>
   );
 }
