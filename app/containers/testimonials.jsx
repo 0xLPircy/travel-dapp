@@ -1,4 +1,10 @@
-import React from "react";
+"use client";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import bg from "../../assets/testimonialBg.png";
 import Image from "next/image";
 
@@ -19,6 +25,7 @@ const Testimonials = () => {
             etc lorem ipsum dolor
           </p>
         </div>
+
         <div className="cards bg-[#ffffffa4] p-3 rounded-md h-80 justify-self-center col-span-2 mx-9 grid grid-flow-row italic">
           <p className="pt-1">
             "Wanderlust Journeys has completely transformed the way I travel! I
