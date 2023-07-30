@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <div className="grid grid-flow-col text-[#dbdbdb] pt-6">
       <Image height={150} width={150} src="/logo.png" />
+      <h1>TRAVEL DAPP</h1>
       <div>
         <ul>
           <li>About Us</li>
@@ -35,6 +36,11 @@ const Footer = () => {
           <Image height={30} width={30} src={meta} />
           <Image height={30} width={30} src={x} />
         </div>
+        <form action="">
+          <label htmlFor="">Newsletter:</label>
+          <input type="email" placeholder="Enter Email Id..." />
+          <input type="submit" placeholder="Subscribe" />
+        </form>
       </div>
     </div>
   );
