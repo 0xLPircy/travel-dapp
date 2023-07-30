@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body className="bg-[#212121] ">
-          <Nav />
           <main>{children}</main>
           <Footer />
         </body>

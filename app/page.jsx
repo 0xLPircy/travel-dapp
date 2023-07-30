@@ -8,6 +8,7 @@ import Testimonials from "./containers/testimonials";
 export default function Home() {
   return (
     <>
+      <Nav />
       <Showcase />
       <Features />
       <HowToUse />
