@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 
-import chatImg from "../../assets/chat.png";
+import chatImg from "../../assets/Chat.png";
 import mockup from "../../assets/showcaseMockup.png";
 
 const Showcase = () => {

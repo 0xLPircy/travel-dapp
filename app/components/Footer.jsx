@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import insta from "@/assets/insta.png";
+import insta from "@/assets/Insta.png";
 import meta from "@/assets/meta.png";
 import x from "@/assets/x.png";
 
