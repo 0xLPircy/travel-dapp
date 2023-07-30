@@ -13,6 +13,7 @@ export default function Home() {
       <HowToUse />
       <Testimonials />
       <Faq />
+      {/* newsletter */}
     </>
   );
 }
