@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React from "react";
+
 import chatImg from "../../assets/chat.png";
 import mockup from "../../assets/showcaseMockup.png";
 
