@@ -2,13 +2,13 @@ import Image from "next/image";
 import React from "react";
 import logo from "@/assets/userNavLogo.png";
 
-const UserNav = () => {
+const UserNav = ({ select }) => {
   return (
-    <div className="">
+    <div>
       <div>
         <Image height={180} width={240} src={logo} />
       </div>
-      <div>
+      <div className={select}>
         <ul className="-mt-9 grid grid-flow-row items-start gap-3 text-[#b8b8b8] px-3 font-[300]">
           <li>Home</li>
           <li>Explore Trips</li>

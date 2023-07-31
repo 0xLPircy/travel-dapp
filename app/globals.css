@@ -61,3 +61,8 @@ nav {
     rgba(187, 187, 187, 1) 100%
   );
 }
+
+.dashboard ul:nth-child(3) {
+  background-color: #ff800098;
+  border-radius: 100px;
+}

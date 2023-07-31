@@ -10,7 +10,7 @@ const DashboardPage = () => {
     <div className="grid grid-flow-col grid-cols-5">
       <div className="col-span-1">
         {" "}
-        <UserNav />
+        <UserNav select={"dashboard"} />
       </div>
       <div className="col-span-3 py-6">
         <div className="text-[#eeeeee] text-3xl">
@@ -79,7 +79,7 @@ const DashboardPage = () => {
           </div>
         </div>
       </div>
-      <div className="col-span-1 bg-slate-400">
+      <div className="col-span-1">
         <Rhs />
       </div>
     </div>
