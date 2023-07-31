@@ -1,7 +1,8 @@
 import React from "react";
 import UserNav from "../components/UserNav";
 import Image from "next/image";
-import nft1 from "@/assets/features/travelpic.jpg";
+import nft1 from "@/assets/bgSteps.png";
+import Nftcard from "../components/Nftcard";
 
 const DashboardPage = () => {
   return (
@@ -60,12 +61,14 @@ const DashboardPage = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="place-self-start text-3xl mt-6 text-[#eeeeee] font-[300]">
             {" "}
-            <h1>Colleted NFTs</h1>
+            <h1>Collected NFTs</h1>
             {/* maybe sorting */}
           </div>
-          <div>{/* nft card */}</div>
+          <div>
+            <Nftcard />
+          </div>
         </div>
       </div>
       <div className="col-span-1 bg-slate-400">rhs</div>

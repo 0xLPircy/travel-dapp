@@ -52,3 +52,12 @@ nav {
   background: url(../assets/faqBg.png) no-repeat fixed;
   background-size: cover;
 }
+
+.nftBorder {
+  background: rgb(250, 156, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(250, 156, 36, 1) 37%,
+    rgba(187, 187, 187, 1) 100%
+  );
+}
