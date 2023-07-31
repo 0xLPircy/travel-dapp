@@ -3,6 +3,7 @@ import UserNav from "../components/UserNav";
 import Image from "next/image";
 import nft1 from "@/assets/bgSteps.png";
 import Nftcard from "../components/Nftcard";
+import Rhs from "../components/Rhs";
 
 const DashboardPage = () => {
   return (
@@ -16,7 +17,7 @@ const DashboardPage = () => {
           <h1>Hi! Welcome to your Dashboard!</h1>
           <h1 className="italic font-[200] py-3">
             Youre Currently on{" "}
-            <span className="bg-[#ff961e] rounded-3xl py-1 px-4 text-[#121212] font-[400]">
+            <span className="bg-[#DE8B21] rounded-3xl py-1 px-4 text-[#121212] font-[400]">
               Trip name
             </span>
           </h1>
@@ -27,7 +28,7 @@ const DashboardPage = () => {
           </h1>
           <div className="bg-[#121212] rounded-lg grid grid-flow-col items-center p-6 m-3">
             <div className="grid grid-flow-row items-center">
-              <h2 className="place-self-start text-[#ff8341] text-xl font-[300]">
+              <h2 className="place-self-start text-[#DE8B21] text-xl font-[300]">
                 Task Name Comes Here
               </h2>
               <div className="grid grid-flow-row">
@@ -43,10 +44,10 @@ const DashboardPage = () => {
                 perspiciatis hic dignissimos.
               </p>
               <div className="grid gap-3 grid-flow-col justify-center items-center place-self-start my-3">
-                <button className="bg-[#ff8341] rounded-md py-1 px-3 text-[#eeeeee]">
+                <button className="bg-[#DE8B21] rounded-md py-1 px-3 text-[#eeeeee]">
                   View Reward
                 </button>
-                <button className="border-[#ff8341] border rounded-md py-1 px-3 text-[#ff8341]">
+                <button className="border-[#DE8B21] border rounded-md py-1 px-3 text-[#DE8B21]">
                   Submit Proof
                 </button>
               </div>
@@ -55,7 +56,12 @@ const DashboardPage = () => {
               <div>
                 {/* navigation buttons */}
                 {/* Image */}
-                <Image height={240} width={240} src={nft1} />
+                <Image
+                  height={240}
+                  width={240}
+                  src={nft1}
+                  className="rounded-md"
+                />
               </div>
             </div>
           </div>
@@ -66,12 +72,16 @@ const DashboardPage = () => {
             <h1>Collected NFTs</h1>
             {/* maybe sorting */}
           </div>
-          <div>
+          <div className="grid grid-flow-col gap-3 justify-center items-center mx-3">
+            <Nftcard />
+            <Nftcard />
             <Nftcard />
           </div>
         </div>
       </div>
-      <div className="col-span-1 bg-slate-400">rhs</div>
+      <div className="col-span-1 bg-slate-400">
+        <Rhs />
+      </div>
     </div>
   );
 };
