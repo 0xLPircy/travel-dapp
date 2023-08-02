@@ -4,6 +4,7 @@ import Image from "next/image";
 import nft1 from "@/assets/bgSteps.png";
 import Nftcard from "../components/Nftcard";
 import Rhs from "../components/Rhs";
+import eth from "@/assets/etherium.png";
 
 const DashboardPage = () => {
   return (
@@ -32,10 +33,14 @@ const DashboardPage = () => {
                 Task Name Comes Here
               </h2>
               <div className="grid grid-flow-row">
-                <h3 className="font-[200] text-[#eeeeee] text-xs p-3">
+                <h3 className="font-[200] text-[#eeeeee] text-xs pt-3 px-3">
                   Difficulty of Task
                 </h3>
-                {/* etherium stars */}
+                <div className="px-3 pb-3 pt-1 flex">
+                  <Image height={15} width={15} src={eth} />
+                  <Image height={15} width={15} src={eth} />
+                  <Image height={15} width={15} src={eth} />
+                </div>
               </div>
               <p className="text-[#aaaaaa] text-sm">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
