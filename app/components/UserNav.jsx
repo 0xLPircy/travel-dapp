@@ -10,7 +10,7 @@ const UserNav = ({ select }) => {
       </div>
       <div className={select}>
         <ul className="-mt-9 grid grid-flow-row items-start gap-3 text-[#b8b8b8] px-3 font-[300]">
-          <li>Home</li>
+          <li className="">Home</li>
           <li>Explore Trips</li>
           <li>DashBoard</li>
           <li>Past Trips</li>

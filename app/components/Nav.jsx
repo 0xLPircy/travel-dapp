@@ -17,21 +17,36 @@ const Nav = () => {
           </div>
         </Link>
         <div className="flex items-center text-[#eeeeee]">
-          <Link className="mx-6" href="/">
+          <Link
+            className="mx-6 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+            href="/"
+          >
             Home
           </Link>
-          <Link className="mx-6" href="/">
+          <Link
+            className="mx-6 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+            href="/"
+          >
             About
           </Link>
-          <Link className="mx-6" href="/">
+          <Link
+            className="mx-6 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+            href="/"
+          >
             Programs
           </Link>
-          <Link className="mx-6" href="/">
+          <Link
+            className="mx-6 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+            href="/"
+          >
             Contact Us
           </Link>
           {!userId && (
             <div className="flex bg-[#e2e2e2] text-[#121212] items-center p-2 rounded-md">
-              <Link className="px-2" href="sign-in">
+              <Link
+                className="px-2 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+                href="sign-in"
+              >
                 {" "}
                 Connect Wallet{" "}
               </Link>
@@ -39,7 +54,10 @@ const Nav = () => {
             </div>
           )}
           {userId && (
-            <Link className="mx-6" href="/dashboard">
+            <Link
+              className="mx-6 hover:text-[#4da43f] hover:border-b border-[#4da43f]"
+              href="/dashboard"
+            >
               Dashboard
             </Link>
           )}
