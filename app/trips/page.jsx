@@ -1,8 +1,10 @@
-// import React from "react";
+// start a new trip page
+import React from "react";
+import { useStore } from "zustand";
 
-// const ExploreTripsPage = () => {
-//     const
-//   return <div>ExploreTripsPage</div>;
-// };
+const ExploreTripsPage = () => {
+  const trips = useStore((state) => state.trips);
+  return <div>ExploreTripsPage</div>;
+};
 
-// export default ExploreTripsPage;
+export default ExploreTripsPage;
