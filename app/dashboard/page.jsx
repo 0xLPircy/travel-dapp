@@ -1,3 +1,4 @@
+// main prof page and dashboard
 import React from "react";
 import UserNav from "../components/UserNav";
 import Image from "next/image";
