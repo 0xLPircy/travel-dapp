@@ -18,7 +18,7 @@ const Features = () => {
           Explore the Wildness of Nature
         </h5>
         {/* main cards areas */}
-        <div className="justify-self-center grid grid-flow-col grid-cols-4">
+        <div className="justify-self-center grid md:grid-flow-col sm:grid-flow-row md:grid-cols-4">
           {/* columns */}
           <div className="justify-self-center -mt-24">
             {/* cards 1&2*/}
